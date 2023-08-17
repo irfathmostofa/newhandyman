@@ -6,6 +6,7 @@ import Image from "next/image";
 import baner from "../../handyman/pages/components/images/contact.jpg";
 import faq from "../../handyman/pages/components/images/faq.png";
 import { Navber } from "./components/Layout/Navber";
+import Head from "next/head";
 
 const Contact = () => {
   return (
