@@ -65,7 +65,23 @@
   background-repeat: no-repeat;
   background-color: #e6bf14;
 }
+.bg-post {
+  background-image: url("../../handyman/pages/components/images/ac.jpg");
+  /* height: 500px; */
 
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-color: #e6bf14;
+}
+.blog-img {
+  height: 300px;
+  object-fit: cover;
+  width: 100%;
+}
+.test-div {
+  padding-left: 4rem;
+  padding-top: 8rem;
+}
 .bg_main {
   background-color: rgba(38, 39, 43, 0.6);
 }

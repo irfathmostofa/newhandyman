@@ -11,10 +11,10 @@ export const Footer = () => {
         <div class="container">
           <div class="row">
             <div class="col-sm-12 col-md-6">
-              <h6>
+              <h5>
                 {" "}
                 <i class="fas fa-tools"></i> Handyman Service
-              </h6>
+              </h5>
               <p class="text-justify">
                 "Reliable Handyman Services in Singapore - Your Trusted Partner
                 for Quality Repairs and Maintenance.{" "}

@@ -5,7 +5,6 @@ import { Navber } from "../components/Layout/Navber";
 const DoorRepair = () => {
   return (
     <>
-      <Navber />
       <section className="p-5">
         <div className="container">
           <Image src={ac} class="w-75 h-25" alt="..." />

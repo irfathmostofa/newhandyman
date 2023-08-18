@@ -31,7 +31,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <Navber />
         <div className="cover_img">
           <div className="container text-white p-5">
             <div className="mt-5 bg_main rounded-2 p-5">
