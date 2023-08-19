@@ -15,6 +15,10 @@ const About = () => {
           name="description"
           content="Discover reliable and skilled handyman services in Singapore that you can trust for all your home repair and maintenance needs. Our experienced team of professionals is here to tackle everything from fixing leaky faucets to assembling furniture and more. With a commitment to delivering quality workmanship and exceptional customer service, we ensure your satisfaction every step of the way. Contact us today and experience efficient and affordable solutions tailored to your requirements. Trust our reliable handyman services in Singapore to keep your home in optimal condition. #handymanservices #Singapore #homerepairs"
         />
+        <meta
+          name="keywords"
+          content="handyman service in Singapore, Best handyman service in Singapore, Aircon Services, Water Leakage Repair, Sliding Door Repair, Plumbing, Kitchen Sink Installation, Furniture Assembling, Electrical Repairs, Cabinet Installation, Aircon Maintenance, House Wiring, Home Renovation"
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -26,7 +30,7 @@ const About = () => {
         >
           <div className="p-3">
             <h3> About Our Trusted Handyman Services</h3>
-            <h6 className="mt-3 p_col">
+            <h6 className="mt-3 ">
               About Our Expert Handyman Services in Singapore, Find out how our
               years of experience and expertise in various trades enable us to
               handle a wide range of projects, from plumbing and electrical
@@ -209,6 +213,78 @@ const About = () => {
                 revolutionizing the industry with our commitment to exceptional
                 quality, customer-centric approach, and innovative solutions."
               </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h2 class="text-center text-4xl font-extrabold py-10 my-5">
+          Why Choose Us?
+        </h2>
+        <div class="container mb-5">
+          <div class="row">
+            <div class="col-md-12 mb-4">
+              <div class="card card-compact bg-base-100 shadow-xl rounded-md hover:scale-105 transition duration-500 drop-shadow-x">
+                <div class="card-body">
+                  <h5 class="card-title">Experienced and Skilled Team</h5>
+                  <p class="card-text text-justify text-gray-600">
+                    Our handymen are a team of experienced and skilled
+                    professionals who are well-equipped to handle any repair or
+                    maintenance task efficiently and precisely.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 mb-4">
+              <div class="card card-compact bg-base-100 shadow-xl rounded-md hover:scale-105 transition duration-500 drop-shadow-x">
+                <div class="card-body">
+                  <h5 class="card-title">Comprehensive Services</h5>
+                  <p class="card-text text-justify text-gray-600">
+                    No matter the scale of the job, we provide a comprehensive
+                    range of services to address all your home repair
+                    requirements.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 mb-4">
+              <div class="card card-compact bg-base-100 shadow-xl rounded-md hover:scale-105 transition duration-500 drop-shadow-x">
+                <div class="card-body">
+                  <h5 class="card-title">Reliable and Efficient</h5>
+                  <p class="card-text text-justify text-gray-600">
+                    We understand that a functional home is essential for your
+                    comfort and peace of mind. Our team works diligently to
+                    provide reliable and efficient services, ensuring that your
+                    daily life is minimally disrupted.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 mb-4">
+              <div class="card card-compact bg-base-100 shadow-xl rounded-md hover:scale-105 transition duration-500 drop-shadow-x">
+                <div class="card-body">
+                  <h5 class="card-title">Hassle-Free Experience</h5>
+                  <p class="card-text text-justify text-gray-600">
+                    Customer satisfaction is our priority. When you choose us,
+                    expect a hassle-free experience from the moment you contact
+                    us to the successful completion of the project.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 mb-4">
+              <div class="card card-compact bg-base-100 shadow-xl rounded-md hover:scale-105 transition duration-500 drop-shadow-x">
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Well-Maintained and Functional Home
+                  </h5>
+                  <p class="card-text text-justify text-gray-600">
+                    Your home deserves the best care. With our handyman
+                    services, you can be confident that your home will be
+                    well-maintained and fully functional.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import logo from "../images/AHM.png"
+import logo from "../images/AHM.png";
 import Image from "next/image";
 export const Navber = () => {
   return (
@@ -8,8 +8,13 @@ export const Navber = () => {
       <nav class="navbar  navbar-expand-lg bg-body-tertiary sticky-top shadow-sm">
         <div class="container">
           <Link class="navbar-brand" href="/">
-           <Image style={{width:"240px",height:"35px"}} src={logo} alt="Handyman AHM"/>
+            <Image
+              src={logo}
+              style={{ height: "50px", width: "300px" }}
+              alt="Handyman AHM"
+            />
           </Link>
+
           <button
             class="navbar-toggler"
             type="button"

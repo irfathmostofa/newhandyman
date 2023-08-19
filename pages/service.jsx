@@ -31,6 +31,10 @@ const Service = () => {
           name="description"
           content="Discover reliable and skilled handyman services in Singapore that you can trust for all your home repair and maintenance needs. Our experienced team of professionals is here to tackle everything from fixing leaky faucets to assembling furniture and more. With a commitment to delivering quality workmanship and exceptional customer service, we ensure your satisfaction every step of the way. Contact us today and experience efficient and affordable solutions tailored to your requirements. Trust our reliable handyman services in Singapore to keep your home in optimal condition. #handymanservices #Singapore #homerepairs"
         />
+        <meta
+          name="keywords"
+          content="handyman service in Singapore, Best handyman service in Singapore, Aircon Services, Water Leakage Repair, Sliding Door Repair, Plumbing, Kitchen Sink Installation, Furniture Assembling, Electrical Repairs, Cabinet Installation, Aircon Maintenance, House Wiring, Home Renovation"
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -70,7 +74,10 @@ const Service = () => {
                 </div>
 
                 <div class="card-body">
-                  <Link href="blog/expert-water-leakage-service" class="card-link text-info">
+                  <Link
+                    href="services/expert-water-leakage-service"
+                    class="card-link text-info"
+                  >
                     Learn More
                   </Link>
                 </div>
@@ -89,7 +96,10 @@ const Service = () => {
                 </div>
 
                 <div class="card-body">
-                  <Link href="blog/sliding-door-repair-service" class="card-link text-info">
+                  <Link
+                    href="services/sliding-door-repair-service"
+                    class="card-link text-info"
+                  >
                     Learn More
                   </Link>
                 </div>
@@ -108,7 +118,10 @@ const Service = () => {
                 </div>
 
                 <div class="card-body">
-                  <Link href="blog/professional-plumbing-services" class="card-link text-info">
+                  <Link
+                    href="services/professional-plumbing-services"
+                    class="card-link text-info"
+                  >
                     Learn More
                   </Link>
                 </div>
@@ -128,7 +141,10 @@ const Service = () => {
                 </div>
 
                 <div class="card-body">
-                  <Link href="blog/modern-kitchen-sink-installation" class="card-link text-info">
+                  <Link
+                    href="services/modern-kitchen-sink-installation"
+                    class="card-link text-info"
+                  >
                     Learn More
                   </Link>
                 </div>
@@ -147,7 +163,10 @@ const Service = () => {
                 </div>
 
                 <div class="card-body">
-                  <Link href="blog/expert-furniture-assembling-service" class="card-link text-info">
+                  <Link
+                    href="services/expert-furniture-assembling-service"
+                    class="card-link text-info"
+                  >
                     Learn More
                   </Link>
                 </div>
@@ -166,7 +185,10 @@ const Service = () => {
                 </div>
 
                 <div class="card-body">
-                  <Link href="blog/professional-electrical-services" class="card-link text-info">
+                  <Link
+                    href="services/professional-electrical-services"
+                    class="card-link text-info"
+                  >
                     Learn More
                   </Link>
                 </div>
@@ -185,7 +207,10 @@ const Service = () => {
                 </div>
 
                 <div class="card-body">
-                  <Link href="blog/stylish-Cabinet-installation" class="card-link text-info">
+                  <Link
+                    href="services/stylish-Cabinet-installation"
+                    class="card-link text-info"
+                  >
                     Learn More
                   </Link>
                 </div>
@@ -205,7 +230,10 @@ const Service = () => {
                 </div>
 
                 <div class="card-body">
-                  <Link href="blog/efficient-aircon-services" class="card-link text-info">
+                  <Link
+                    href="services/efficient-aircon-services"
+                    class="card-link text-info"
+                  >
                     Learn More
                   </Link>
                 </div>
@@ -225,7 +253,10 @@ const Service = () => {
                 </div>
 
                 <div class="card-body">
-                  <Link href="blog/professional-house-wiring-services" class="card-link text-info">
+                  <Link
+                    href="services/professional-house-wiring-services"
+                    class="card-link text-info"
+                  >
                     Learn More
                   </Link>
                 </div>

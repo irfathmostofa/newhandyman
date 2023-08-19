@@ -20,6 +20,10 @@ const Contact = () => {
           name="description"
           content="Contact Us for Reliable Handyman Services in Singapore: Whether you need assistance with plumbing, electrical repairs, furniture assembly, or any other home improvement task, our team is ready to help. Reach out to us today to schedule a consultation and experience professional and prompt service."
         />
+        <meta
+          name="keywords"
+          content="handyman service in Singapore, Best handyman service in Singapore, Aircon Services, Water Leakage Repair, Sliding Door Repair, Plumbing, Kitchen Sink Installation, Furniture Assembling, Electrical Repairs, Cabinet Installation, Aircon Maintenance, House Wiring, Home Renovation"
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

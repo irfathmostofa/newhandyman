@@ -16,9 +16,13 @@ const Aircon = () => {
           name="description"
           content="Experience excellence with the best handyman service in Singapore. From home repairs to specialized aircon services, our skilled technicians ensure your comfort and satisfaction. Contact us for reliable solutions today."
         />
+        <meta
+          name="keywords"
+          content="handyman service in Singapore, Best handyman service in Singapore, Aircon Services, Water Leakage Repair, Sliding Door Repair, Plumbing, Kitchen Sink Installation, Furniture Assembling, Electrical Repairs, Cabinet Installation, Aircon Maintenance, House Wiring, Home Renovation"
+        />
       </Head>
-<div className="container-fluid">
-<div class="position-relative overflow-hidden p-3 p-md-5  text-center bg-body-tertiary ">
+      <div className="container-fluid">
+        <div class="position-relative overflow-hidden p-3 p-md-5  text-center bg-body-tertiary ">
           <div class="col-md-6  mx-auto my-5">
             <h1 class="display-3 fw-bold">Efficient Aircon Services</h1>
             <p class="fw-normal text-muted mb-3 fs-5">
@@ -28,7 +32,8 @@ const Aircon = () => {
             </p>
             <div class="d-flex gap-3 justify-content-center lead fw-normal">
               <Link
-                href="https://wa.link/xqqjco" target="_blank"
+                href="https://wa.link/xqqjco"
+                target="_blank"
                 className="btn btn-secondary fw-bold text-white rounded-2"
               >
                 Contact Us
@@ -38,11 +43,9 @@ const Aircon = () => {
           <div class="product-device shadow-sm d-none d-md-block"></div>
           <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
         </div>
-</div>
+      </div>
 
       <div className="row container-fluid">
-  
-
         <div className="col-lg-8 p-5">
           <p className="text_justify">
             At HandymanAHM, we take pride in being the best handyman service in
@@ -126,14 +129,11 @@ const Aircon = () => {
         <div className="col-lg-4 mt-5">
           <Sidebar />
         </div>
-    
       </div>
 
-
-      <div style={{background:" rgba(237, 250, 254, 0.2)"}}>
-          <ContactForm />
-        </div>
-   
+      <div style={{ background: " rgba(237, 250, 254, 0.2)" }}>
+        <ContactForm />
+      </div>
     </>
   );
 };
