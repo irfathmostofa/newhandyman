@@ -1,13 +1,14 @@
 import Link from "next/link";
 import React from "react";
-
+import logo from "../images/AHM.png"
+import Image from "next/image";
 export const Navber = () => {
   return (
     <>
       <nav class="navbar  navbar-expand-lg bg-body-tertiary sticky-top shadow-sm">
         <div class="container">
           <Link class="navbar-brand" href="/">
-            HandymanAHM
+           <Image style={{width:"240px",height:"35px"}} src={logo} alt="Handyman AHM"/>
           </Link>
           <button
             class="navbar-toggler"

@@ -1,7 +1,7 @@
 import Image from "next/image";
-import about from "../../handyman/pages/components/images/about.jpg";
-import service from "../../handyman/pages/components/images/service.png";
-import { Navber } from "./components/Layout/Navber";
+import about from "../pages/components/images/about.jpg";
+import service from "../pages/components/images/service.png";
+import { Navber } from "../../newhandyman/pages/components/Layout/Navber.jsx";
 import Head from "next/head";
 const About = () => {
   return (

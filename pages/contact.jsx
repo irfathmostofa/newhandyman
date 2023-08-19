@@ -3,9 +3,9 @@ import { ContactForm } from "./components/ContactForm";
 
 import ContactCard from "./components/ContactCard";
 import Image from "next/image";
-import baner from "../../handyman/pages/components/images/contact.jpg";
-import faq from "../../handyman/pages/components/images/faq.png";
-import { Navber } from "./components/Layout/Navber";
+import baner from "../pages/components/images/contact.jpg";
+import faq from "../pages/components/images/faq.png";
+import { Navber } from "../../newhandyman/pages/components/Layout/Navber.jsx";
 import Head from "next/head";
 
 const Contact = () => {

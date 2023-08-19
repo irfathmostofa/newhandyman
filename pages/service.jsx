@@ -1,21 +1,21 @@
 import Image from "next/image";
 import Link from "next/link";
-import ac from "../../handyman/pages/components/images/ac.jpg";
-import cabinet from "../../handyman/pages/components/images/cabinet.jpg";
-import door from "../../handyman/pages/components/images/door.jpg";
-import electrical from "../../handyman/pages/components/images/electrical.jpg";
-import furniture from "../../handyman/pages/components/images/furniture.jpg";
-import plumbing from "../../handyman/pages/components/images/plumbing.jpg";
-import sink from "../../handyman/pages/components/images/sink.jpg";
-import water from "../../handyman/pages/components/images/water_leakage.jpg";
-import wiring from "../../handyman/pages/components/images/wiring.jpg";
+import ac from "../pages/components/images/ac.jpg";
+import cabinet from "../pages/components/images/cabinet.jpg";
+import door from "../pages/components/images/door.jpg";
+import electrical from "../pages/components/images/electrical.jpg";
+import furniture from "../pages/components/images/furniture.jpg";
+import plumbing from "../pages/components/images/plumbing.jpg";
+import sink from "../pages/components/images/sink.jpg";
+import water from "../pages/components/images/water_leakage.jpg";
+import wiring from "../pages/components/images/wiring.jpg";
 
-import hmr1 from "../../handyman/pages/components/images/hmr1.jpg";
-import hmr2 from "../../handyman/pages/components/images/hmr2.jpg";
-import hmr3 from "../../handyman/pages/components/images/hmr3.jpg";
-import hmr4 from "../../handyman/pages/components/images/hmr4.jpg";
-import hmr5 from "../../handyman/pages/components/images/hmr5.jpg";
-import hmr6 from "../../handyman/pages/components/images/hmr6.jpg";
+import hmr1 from "../pages/components/images/hmr1.jpg";
+import hmr2 from "../pages/components/images/hmr2.jpg";
+import hmr3 from "../pages/components/images/hmr3.jpg";
+import hmr4 from "../pages/components/images/hmr4.jpg";
+import hmr5 from "../pages/components/images/hmr5.jpg";
+import hmr6 from "../pages/components/images/hmr6.jpg";
 import { Navber } from "./components/Layout/Navber";
 import Head from "next/head";
 
@@ -70,7 +70,7 @@ const Service = () => {
                 </div>
 
                 <div class="card-body">
-                  <Link href="water_leakage" class="card-link text-info">
+                  <Link href="blog/expert-water-leakage-service" class="card-link text-info">
                     Learn More
                   </Link>
                 </div>
@@ -89,7 +89,7 @@ const Service = () => {
                 </div>
 
                 <div class="card-body">
-                  <Link href="door_repair" class="card-link text-info">
+                  <Link href="blog/sliding-door-repair-service" class="card-link text-info">
                     Learn More
                   </Link>
                 </div>
@@ -108,7 +108,7 @@ const Service = () => {
                 </div>
 
                 <div class="card-body">
-                  <Link href="plumbing" class="card-link text-info">
+                  <Link href="blog/professional-plumbing-services" class="card-link text-info">
                     Learn More
                   </Link>
                 </div>
@@ -128,7 +128,7 @@ const Service = () => {
                 </div>
 
                 <div class="card-body">
-                  <Link href="kitchen_sink" class="card-link text-info">
+                  <Link href="blog/modern-kitchen-sink-installation" class="card-link text-info">
                     Learn More
                   </Link>
                 </div>
@@ -147,7 +147,7 @@ const Service = () => {
                 </div>
 
                 <div class="card-body">
-                  <Link href="furniture" class="card-link text-info">
+                  <Link href="blog/expert-furniture-assembling-service" class="card-link text-info">
                     Learn More
                   </Link>
                 </div>
@@ -166,7 +166,7 @@ const Service = () => {
                 </div>
 
                 <div class="card-body">
-                  <Link href="electrical" class="card-link text-info">
+                  <Link href="blog/professional-electrical-services" class="card-link text-info">
                     Learn More
                   </Link>
                 </div>
@@ -185,7 +185,7 @@ const Service = () => {
                 </div>
 
                 <div class="card-body">
-                  <Link href="cabinet" class="card-link text-info">
+                  <Link href="blog/stylish-Cabinet-installation" class="card-link text-info">
                     Learn More
                   </Link>
                 </div>
@@ -205,7 +205,7 @@ const Service = () => {
                 </div>
 
                 <div class="card-body">
-                  <Link href="blog/aircorn" class="card-link text-info">
+                  <Link href="blog/efficient-aircon-services" class="card-link text-info">
                     Learn More
                   </Link>
                 </div>
@@ -225,7 +225,7 @@ const Service = () => {
                 </div>
 
                 <div class="card-body">
-                  <Link href="house_wiring" class="card-link text-info">
+                  <Link href="blog/professional-house-wiring-services" class="card-link text-info">
                     Learn More
                   </Link>
                 </div>

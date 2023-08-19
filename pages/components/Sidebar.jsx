@@ -4,9 +4,9 @@ import React from "react";
 export const Sidebar = () => {
   return (
     <>
-      <h3 className="px-3">Services</h3>
+      <h3 className="px-3 text-lg-start text-center">Services</h3>
 
-      <ul class="list-group list-group-flush border-0 ">
+      <ul class="list-group list-group-flush border-0 text-lg-start text-center p-lg-0 pb-5">
         <li class="list-group-item border-0 ">
           <Link href="" className="text-dark">
             Efficient Aircon Services

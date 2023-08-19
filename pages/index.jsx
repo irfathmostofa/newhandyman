@@ -2,16 +2,16 @@ import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import Link from "next/link";
-import { Navber } from "./components/Layout/Navber";
-import home from "../../handyman/pages/components/images/home.jpg";
-import home2 from "../../handyman/pages/components/images/home2.jpg";
-import home4 from "../../handyman/pages/components/images/home4.jpg";
-import home5 from "../../handyman/pages/components/images/home5.jpg";
+import { Navber } from "../../newhandyman/pages/components/Layout/Navber.jsx";
+import home from "../pages/components/images/home.jpg";
+import home2 from "../pages/components/images/home2.jpg";
+import home4 from "../pages/components/images/home4.jpg";
+import home5 from "../pages/components/images/home5.jpg";
 
-import bca from "../../handyman/pages/components/images/bca.png";
-import biz from "../../handyman/pages/components/images/biz.png";
-import contacts from "../../handyman/pages/components/images/contacts.jpg";
-import iso from "../../handyman/pages/components/images/iso.png";
+import bca from "../pages/components/images/bca.png";
+import biz from "../pages/components/images/biz.png";
+import contacts from "../pages/components/images/contacts.jpg";
+import iso from "../pages/components/images/iso.png";
 import { ContactForm } from "./components/ContactForm";
 const inter = Inter({ subsets: ["latin"] });
 
