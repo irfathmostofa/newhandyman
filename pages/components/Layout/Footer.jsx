@@ -3,7 +3,7 @@ import React from "react";
 export const metadata = {
   url: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css",
 };
-export const Footer = () => {
+const Footer = () => {
   return (
     <>
       {" "}
@@ -27,14 +27,12 @@ export const Footer = () => {
                 <li>
                   {" "}
                   <i className="fas fa-home mb-2"></i>{" "}
-                  <a href="http://scanfcode.com/category/c-language/">
-                    Singapore 209560
-                  </a>
+                  <a href="#">Singapore 209560</a>
                 </li>
                 <li>
                   {" "}
                   <i className="fas fa-envelope mb-2"></i>{" "}
-                  <a href="http://scanfcode.com/category/front-end-development/">
+                  <a href="mailto:kazi2630mt@gmail.com">
                     {" "}
                     kazi2630mt@gmail.com
                   </a>
@@ -42,9 +40,29 @@ export const Footer = () => {
                 <li>
                   {" "}
                   <i className="fas fa-phone mb-2"></i>{" "}
-                  <a href="http://scanfcode.com/category/back-end-development/">
-                    +65 8596 6244
-                  </a>
+                  <a href="tel:+65 8596 6244">+65 8596 6244</a>
+                </li>
+                <li>
+                  {" "}
+                  <i className="fas fa-phone mb-2"></i>{" "}
+                  <Link
+                    class="facebook"
+                    target="_blank"
+                    href="https://www.facebook.com/profile.php?id=100072178856281"
+                  >
+                    facebook
+                  </Link>
+                </li>
+                <li>
+                  {" "}
+                  <i className="fas fa-phone mb-2"></i>{" "}
+                  <Link
+                    class="dribbble"
+                    target="_blank"
+                    href="https://wa.link/xqqjco"
+                  >
+                    whatsapp
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -80,32 +98,11 @@ export const Footer = () => {
               </small>
             </div>
 
-            <div class="col-md-4 col-sm-6 col-xs-12">
-              <ul class="social-icons">
-                <li>
-                  <Link
-                    class="facebook"
-                    target="_blank"
-                    href="https://www.facebook.com/profile.php?id=100072178856281"
-                  >
-                    <i class="fab fa-facebook"></i>
-                  </Link>
-                </li>
-
-                <li>
-                  <Link
-                    class="dribbble"
-                    target="_blank"
-                    href="https://wa.link/xqqjco"
-                  >
-                    <i class="fab fa-whatsapp"></i>
-                  </Link>
-                </li>
-              </ul>
-            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12"></div>
           </div>
         </div>
       </footer>
     </>
   );
 };
+export default Footer;

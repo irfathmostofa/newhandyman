@@ -21,6 +21,7 @@ const Aircon = () => {
           content="handyman service in Singapore, Best handyman service in Singapore, Aircon Services, Water Leakage Repair, Sliding Door Repair, Plumbing, Kitchen Sink Installation, Furniture Assembling, Electrical Repairs, Cabinet Installation, Aircon Maintenance, House Wiring, Home Renovation"
         />
       </Head>
+      <Navber />
       <div className="container-fluid">
         <div class="position-relative overflow-hidden p-3 p-md-5 text-center bg-body-tertiary">
           <div class="col-md-6 mx-auto my-5">
@@ -55,7 +56,11 @@ const Aircon = () => {
             Transformation Services exemplify our unwavering commitment to
             excellence and ensuring our customers' utmost satisfaction.
           </p>
-          <Image src={ac} className="blog-img mb-3" alt="..." />
+          <Image
+            src={ac}
+            className="blog-img mb-3"
+            alt="Cabinet Installation Service in Singapore"
+          />
 
           <h2>What Sets Our Cabinet Styling Services Apart?</h2>
           <p className="text_justify">

@@ -1,18 +1,13 @@
 import Link from "next/link";
-import React from "react";
 import logo from "../images/AHM.png";
 import Image from "next/image";
-export const Navber = () => {
+const Navber = () => {
   return (
     <>
       <nav class="navbar  navbar-expand-lg bg-body-tertiary sticky-top shadow-sm">
         <div class="container">
           <Link class="navbar-brand" href="/">
-            <Image
-              src={logo}
-              style={{ height: "50px", width: "300px" }}
-              alt="Handyman AHM"
-            />
+            <Image src={logo} className="logo" alt="Handyman AHM" />
           </Link>
 
           <button
@@ -102,3 +97,4 @@ export const Navber = () => {
     </>
   );
 };
+export default Navber;

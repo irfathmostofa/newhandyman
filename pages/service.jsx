@@ -38,7 +38,7 @@ const Service = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+      <Navber />
       <div className="container mt-5 pt-5">
         <button class="custom position-relative rounded-4">
           <p className=" text_justify mt-4 p-5">

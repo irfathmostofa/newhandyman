@@ -1,6 +1,4 @@
-import React from "react";
-
-export const ContactForm = () => {
+const ContactForm = () => {
   return (
     <div className="container py-5">
       <div className="row align-items-center">
@@ -42,3 +40,4 @@ export const ContactForm = () => {
     </div>
   );
 };
+export default ContactForm;

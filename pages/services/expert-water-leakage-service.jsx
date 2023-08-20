@@ -21,6 +21,7 @@ const Aircon = () => {
           content="handyman service in Singapore, Best handyman service in Singapore, Aircon Services, Water Leakage Repair, Sliding Door Repair, Plumbing, Kitchen Sink Installation, Furniture Assembling, Electrical Repairs, Cabinet Installation, Aircon Maintenance, House Wiring, Home Renovation"
         />
       </Head>
+      <Navber />
       <div className="container-fluid">
         <div class="position-relative overflow-hidden p-3 p-md-5 text-center bg-body-tertiary ">
           <div class="col-md-6 mx-auto my-5">
@@ -55,7 +56,11 @@ const Aircon = () => {
             exemplifies our unwavering dedication to top-tier quality and
             ensuring customer contentment.
           </p>
-          <Image src={ac} className="blog-img mb-3" alt="..." />
+          <Image
+            src={ac}
+            className="blog-img mb-3"
+            alt="Water Leakage Repair Service in Singapore"
+          />
 
           <h2>Why Opt for Our Water Leakage Servicing?</h2>
           <p class="text_justify">
