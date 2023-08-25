@@ -1,11 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import ac from "../components/images/stylish-cabinet.jpg";
-import { Navber } from "../components/Layout/Navber";
-import { Sidebar } from "../components/Sidebar";
 import Head from "next/head";
-import { ContactForm } from "../components/ContactForm";
-const Aircon = () => {
+import Navber from "../components/Layout/Navber";
+import Sidebar from "../components/Sidebar";
+import ContactForm from "../components/ContactForm";
+const Cabinet = () => {
   return (
     <>
       <Head>
@@ -50,11 +50,11 @@ const Aircon = () => {
       <div className="row container-fluid">
         <div className="col-lg-8 p-5">
           <p className="text_justify">
-            At Handyman AHM, we take immense pride in being Singapore's premier
+            At Handyman AHM, we take immense pride in being Singapore`s premier
             handyman service, offering comprehensive and tailored solutions to
             meet all your home maintenance needs. Our specialized Cabinet
             Transformation Services exemplify our unwavering commitment to
-            excellence and ensuring our customers' utmost satisfaction.
+            excellence and ensuring our customer`s utmost satisfaction.
           </p>
           <Image
             src={ac}
@@ -78,10 +78,10 @@ const Aircon = () => {
           <p className="text_justify">
             <strong>Cabinet Refinement and Installation:</strong> Our repertoire
             of services encompasses the refinement and installation of cabinets
-            that align with your vision. Whether it's breathing new life into
+            that align with your vision. Whether it`s breathing new life into
             your existing cabinets or installing new ones, our skilled artisans
             ensure meticulous craftsmanship, functional design, and a seamless
-            integration that enhances your space's allure.
+            integration that enhances your space`s allure.
           </p>
           <p className="text_justify">
             <strong>Elevate Your Cabinets with Our Range of Services:</strong>{" "}
@@ -145,7 +145,7 @@ const Aircon = () => {
             At HandymanAHM, we hold the firm belief that our cabinet styling
             services are an indispensable facet of our all-encompassing handyman
             solutions. Discover the distinction of collaborating with
-            Singapore's premier handyman service as you entrust us with your
+            Singapore`s premier handyman service as you entrust us with your
             cabinet refinement and installation needs. Reach out to us today to
             arrange an appointment and embrace a home environment imbued with
             elegance and functional charm.
@@ -163,4 +163,4 @@ const Aircon = () => {
   );
 };
 
-export default Aircon;
+export default Cabinet;

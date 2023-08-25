@@ -1,11 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import ac from "../components/images/professional-electrical-services.jpg";
-import { Navber } from "../components/Layout/Navber";
-import { Sidebar } from "../components/Sidebar";
 import Head from "next/head";
-import { ContactForm } from "../components/ContactForm";
-const Aircon = () => {
+import Navber from "../components/Layout/Navber";
+import Sidebar from "../components/Sidebar";
+import ContactForm from "../components/ContactForm";
+const Electrical = () => {
   return (
     <>
       <Head>
@@ -51,7 +51,7 @@ const Aircon = () => {
       <div className="row container-fluid">
         <div className="col-lg-8 p-5">
           <p className="text_justify">
-            At HandymanAHM, we're not just limited to general maintenance. Our
+            At HandymanAHM, we`re not just limited to general maintenance. Our
             expertise extends to professional electrical services as well. As
             the leading handyman service in Singapore, we take pride in offering
             a comprehensive range of solutions to cater to your home maintenance
@@ -64,7 +64,7 @@ const Aircon = () => {
 
           <h2>Advantages of Opting for Our Professional Electrical Services</h2>
           <p className="text_justify">
-            When dealing with electrical systems, it's crucial to prioritize
+            When dealing with electrical systems, it`s crucial to prioritize
             proper maintenance for optimal performance, safety, and a seamless
             living or working environment. Our specialized team of expert
             electricians possesses in-depth knowledge of intricate electrical
@@ -88,15 +88,15 @@ const Aircon = () => {
             repairs and replacements to keep your home powered safely.
           </p>
           <p className="text_justify">
-            <strong>Electrical Repairs:</strong> If you're experiencing
+            <strong>Electrical Repairs:</strong> If you`re experiencing
             electrical problems such as flickering lights, tripped circuits, or
             malfunctioning outlets, our skilled technicians diagnose and address
             the issues promptly. We ensure your electrical system is restored to
             full functionality.
           </p>
           <p className="text_justify">
-            <strong>New Installations and Upgrades:</strong> Whether you're
-            adding new appliances or upgrading your home's electrical capacity,
+            <strong>New Installations and Upgrades:</strong> Whether you`re
+            adding new appliances or upgrading your home`s electrical capacity,
             our experts provide professional installation and upgrade services.
             We ensure compliance with safety standards and proper wiring for
             optimal performance.
@@ -125,7 +125,7 @@ const Aircon = () => {
             <strong>Personalized Approach:</strong> Every home has unique
             electrical requirements. Our services are tailored to address your
             specific needs, offering customized solutions that align with your
-            home's electrical demands.
+            home`s electrical demands.
           </p>
           <p className="text_justify">
             <strong>Affordable Excellence:</strong> We are committed to
@@ -156,4 +156,4 @@ const Aircon = () => {
   );
 };
 
-export default Aircon;
+export default Electrical;

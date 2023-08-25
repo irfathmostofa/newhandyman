@@ -1,6 +1,6 @@
-export const metadata = {
-  url: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css",
-};
+// export const metadata = {
+//   url: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css",
+// }; {/* FIX */}
 
 const ContactCard = () => {
   return (

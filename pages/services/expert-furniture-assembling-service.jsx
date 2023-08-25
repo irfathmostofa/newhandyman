@@ -1,11 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
 import ac from "../components/images/Furniture-Assembling.jpg";
-import { Navber } from "../components/Layout/Navber";
-import { Sidebar } from "../components/Sidebar";
 import Head from "next/head";
-import { ContactForm } from "../components/ContactForm";
-const Aircon = () => {
+import Navber from "../components/Layout/Navber";
+import Sidebar from "../components/Sidebar";
+import ContactForm from "../components/ContactForm";
+
+
+const Furniture = () => {
   return (
     <>
       <Head>
@@ -65,7 +67,7 @@ const Aircon = () => {
             stands as a testament to our HandymanAHM promise. Experience the
             fusion of functionality and aesthetics like never before. Choose
             FurnitureCraft by HandymanAHM for furniture assembly that exceeds
-            expectations and elevates your home's ambiance.
+            expectations and elevates your home`s ambiance.
           </p>
           <Image
             src={ac}
@@ -95,7 +97,7 @@ const Aircon = () => {
             your space.
           </p>
           <p className="text_justify">
-            <strong>Premium Furniture Assembly:</strong> Whether it's intricate
+            <strong>Premium Furniture Assembly:</strong> Whether it`s intricate
             pieces or substantial furnishings, our expert team excels in
             delivering top-quality furniture assembly. With an unwavering focus
             on detail, we ensure solid construction and a flawless aesthetic
@@ -114,7 +116,7 @@ const Aircon = () => {
             your specific needs, guaranteeing that your treasured items receive
             the attention and care they deserve.
           </p>
-          <h2>Why We're the Best Choice:</h2>
+          <h2>Why We`re the Best Choice:</h2>
           <p className="text_justify">
             <strong>Expert Craftsmanship:</strong> Our dedicated artisans
             possess the skills not only for furniture assembly but also for a
@@ -124,7 +126,7 @@ const Aircon = () => {
           <p className="text_justify">
             <strong>Dependable Service:</strong> We prioritize dependability,
             ensuring your furniture is expertly assembled and ready to enhance
-            your living space's aesthetics and functionality.
+            your living space`s aesthetics and functionality.
           </p>
           <p className="text_justify">
             <strong>Personalized Attention:</strong> We understand that each
@@ -133,7 +135,7 @@ const Aircon = () => {
             unique character.
           </p>
           <p className="text_justify">
-            <strong>Affordability:</strong> We're committed to providing
+            <strong>Affordability:</strong> We`re committed to providing
             exceptional furniture services without breaking the bank. Our
             transparent pricing ensures you receive high-quality results at a
             reasonable cost.
@@ -158,4 +160,4 @@ const Aircon = () => {
   );
 };
 
-export default Aircon;
+export default Furniture;

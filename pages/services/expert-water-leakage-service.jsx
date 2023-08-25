@@ -1,11 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import ac from "../components/images/water-leakage-service.jpg";
-import { Navber } from "../components/Layout/Navber";
-import { Sidebar } from "../components/Sidebar";
 import Head from "next/head";
-import { ContactForm } from "../components/ContactForm";
-const Aircon = () => {
+import Navber from "../components/Layout/Navber";
+import Sidebar from "../components/Sidebar";
+import ContactForm from "../components/ContactForm";
+
+const Water = () => {
   return (
     <>
       <Head>
@@ -64,7 +65,7 @@ const Aircon = () => {
 
           <h2>Why Opt for Our Water Leakage Servicing?</h2>
           <p class="text_justify">
-            When dealing with water leakage issues at home, it's imperative to
+            When dealing with water leakage issues at home, it`s imperative to
             address them promptly to prevent further damage, maintain a safe
             environment, and preserve the integrity of your living space. Our
             proficient team of experts specializes in tackling water leakage
@@ -152,4 +153,4 @@ const Aircon = () => {
   );
 };
 
-export default Aircon;
+export default Water;

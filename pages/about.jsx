@@ -1,7 +1,7 @@
 import Image from "next/image";
 import about from "../pages/components/images/about.jpg";
 import service from "../pages/components/images/service.png";
-import { Navber } from "../../newhandyman/pages/components/Layout/Navber.jsx";
+import  Navber  from "../../newhandyman/pages/components/Layout/Navber.jsx";
 import Head from "next/head";
 const About = () => {
   return (
@@ -68,7 +68,7 @@ const About = () => {
                 and customer satisfaction, we offer a wide range of services to
                 meet all your household needs. At Handyman Ahm, we understand
                 the importance of having a reliable and skilled handyman by your
-                side. Whether it's a small repair or a major renovation project,
+                side. Whether it`s a small repair or a major renovation project,
                 our team of experienced professionals is here to help. From
                 fixing a leaky faucet to installing new electrical fixtures, we
                 have you covered. Our painting services are designed to
@@ -90,7 +90,7 @@ const About = () => {
                 mind that comes with choosing Handyman Ahm for all your
                 handyman, painting, and home renovation needs. Contact us today
                 to discuss your requirements and let us turn your house into a
-                home you'll love.
+                home you`ll love.
               </small>
             </div>
           </div>
@@ -135,8 +135,8 @@ const About = () => {
                   <h5 class="card-title fs-5">24/7 Support </h5>
 
                   <small class="card-text">
-                    "Uninterrupted assistance around the clock - our 24/7
-                    support is here for you."
+                    `Uninterrupted assistance around the clock - our 24/7
+                    support is here for you.`
                   </small>
                 </div>
               </div>
@@ -149,8 +149,8 @@ const About = () => {
                   <h5 class="card-title fs-5">Transparency</h5>
 
                   <small class="card-text">
-                    "Transparently fostering trust through open communication
-                    and honesty."
+                    `Transparently fostering trust through open communication
+                    and honesty.`
                   </small>
                 </div>
               </div>
@@ -163,8 +163,8 @@ const About = () => {
                   <h5 class="card-title fs-5">Customer Satisfaction </h5>
 
                   <small class="card-text">
-                    "Exceeding customers with utmost satisfaction through
-                    exceptional service."
+                    `Exceeding customers with utmost satisfaction through
+                    exceptional service.`
                   </small>
                 </div>
               </div>
@@ -208,10 +208,10 @@ const About = () => {
                 Our Vision <i class="fa-solid fa-binoculars"></i>
               </h4>
               <p className="text_justify">
-                <i class="fa-solid fa-arrow-right-from-bracket"></i> "To become
+                <i class="fa-solid fa-arrow-right-from-bracket"></i> `To become
                 the leading provider of trusted and reliable handyman services,
                 revolutionizing the industry with our commitment to exceptional
-                quality, customer-centric approach, and innovative solutions."
+                quality, customer-centric approach, and innovative solutions.`
               </p>
             </div>
           </div>

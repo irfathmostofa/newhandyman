@@ -1,11 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import ac from "../components/images/professional-electrical-services.jpg";
-import { Navber } from "../components/Layout/Navber";
-import { Sidebar } from "../components/Sidebar";
 import Head from "next/head";
-import { ContactForm } from "../components/ContactForm";
-const Aircon = () => {
+import Navber from "../components/Layout/Navber";
+import Sidebar from "../components/Sidebar";
+import ContactForm from "../components/ContactForm";
+const Wiring = () => {
   return (
     <>
       <Head>
@@ -76,7 +76,7 @@ const Aircon = () => {
           <p className="text_justify">
             <strong>House Wiring Installation and Upgrades:</strong> Our skilled
             electricians are well-versed in house wiring installations and
-            upgrades. Whether you're building a new property or renovating an
+            upgrades. Whether you`re building a new property or renovating an
             existing one, we ensure the safe and efficient installation of
             electrical wiring systems, adhering to industry standards for
             quality and reliability.
@@ -110,7 +110,7 @@ const Aircon = () => {
           </p>
           <p className="text_justify">
             <strong>Reliability:</strong> We prioritize reliability, ensuring
-            your property's electrical systems operate flawlessly, providing
+            your property`s electrical systems operate flawlessly, providing
             peace of mind and safety for you and your family.
           </p>
           <p className="text_justify">
@@ -132,7 +132,7 @@ const Aircon = () => {
             distinction of collaborating with the top handyman service in
             Singapore as you rely on us for your house wiring needs. Get in
             touch with us now to arrange an appointment and enhance the safety
-            and functionality of your property's electrical systems. Make your
+            and functionality of your property`s electrical systems. Make your
             home a safer and more efficient space today.
           </p>
         </div>
@@ -148,4 +148,4 @@ const Aircon = () => {
   );
 };
 
-export default Aircon;
+export default Wiring;

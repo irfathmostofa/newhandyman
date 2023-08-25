@@ -1,11 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import ac from "../components/images/professional-plumbeing-service.jpg";
-import { Navber } from "../components/Layout/Navber";
-import { Sidebar } from "../components/Sidebar";
 import Head from "next/head";
-import { ContactForm } from "../components/ContactForm";
-const Aircon = () => {
+import Navber from "../components/Layout/Navber";
+import Sidebar from "../components/Sidebar";
+import ContactForm from "../components/ContactForm";
+
+const Plumbing = () => {
   return (
     <>
       <Head>
@@ -57,7 +58,7 @@ const Aircon = () => {
             Services embody the quality and customer satisfaction that Handyman
             AHM is known for, assuring you of unmatched expertise and a seamless
             home maintenance experience. Choose ProPlumb Experts for all your
-            plumbing needs and discover the trusted synergy of Handyman AHM's
+            plumbing needs and discover the trusted synergy of Handyman AHM`s
             legacy and top-tier service.
           </p>
           <Image src={ac} className="blog-img mb-3" alt="..." />
@@ -130,7 +131,7 @@ const Aircon = () => {
             part of maintaining a functional home. Experience the difference of
             working with a top-notch plumbing service by entrusting your
             plumbing repairs and maintenance to us. Contact us today to schedule
-            an appointment and ensure your home's plumbing operates seamlessly.
+            an appointment and ensure your home`s plumbing operates seamlessly.
           </p>
         </div>
         <div className="col-lg-4 mt-5">
@@ -145,4 +146,4 @@ const Aircon = () => {
   );
 };
 
-export default Aircon;
+export default Plumbing;

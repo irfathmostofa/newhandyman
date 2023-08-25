@@ -1,10 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import ac from "../components/images/aircon-service.jpg";
-import { Navber } from "../components/Layout/Navber";
-import { Sidebar } from "../components/Sidebar";
 import Head from "next/head";
-import { ContactForm } from "../components/ContactForm";
+import Navber from "../components/Layout/Navber";
+import Sidebar from "../components/Sidebar";
+import ContactForm from "../components/ContactForm";
+
 const Aircon = () => {
   return (
     <>
@@ -72,7 +73,7 @@ const Aircon = () => {
 
           <h2>Services We Offer:</h2>
           <p className="text_justify">
-            <strong>Aircon Installation and Replacement:</strong> Whether you're
+            <strong>Aircon Installation and Replacement:</strong> Whether you`re
             installing a new aircon unit or replacing an old one, our experts
             ensure seamless installation, proper insulation, and optimal
             positioning for maximum cooling efficiency.
@@ -85,16 +86,16 @@ const Aircon = () => {
             checks.
           </p>
           <p className="text_justify">
-            <strong>Aircon Repair:</strong> If your aircon isn't functioning as
+            <strong>Aircon Repair:</strong> If your aircon isn`t functioning as
             it should, our skilled technicians diagnose the issue accurately and
             implement efficient repairs. We address problems like inadequate
             cooling, strange noises, and malfunctioning thermostats.
           </p>
           <p className="text_justify">
             <strong>Gas Refilling and Leak Repairs:</strong> Low gas levels or
-            leaks can greatly affect your aircon's performance. Our experts
+            leaks can greatly affect your aircon`s performance. Our experts
             perform safe and effective gas refilling and address any leaks
-            promptly to ensure your system's efficiency.
+            promptly to ensure your system`s efficiency.
           </p>
 
           <h2>Why We Stand Out:</h2>

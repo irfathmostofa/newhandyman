@@ -1,16 +1,16 @@
 import Image from "next/image";
 import Link from "next/link";
 import ac from "../components/images/sliding-door-repair-service.jpg";
-import { Navber } from "../components/Layout/Navber";
-import { Sidebar } from "../components/Sidebar";
 import Head from "next/head";
-import { ContactForm } from "../components/ContactForm";
-const Aircon = () => {
+import Navber from "../components/Layout/Navber";
+import Sidebar from "../components/Sidebar";
+import ContactForm from "../components/ContactForm";
+const Door = () => {
   return (
     <>
       <Head>
         <title>
-          Expert Sliding Door Repair Service - Enhance Your Space's
+          Expert Sliding Door Repair Service - Enhance Your Space`s
           Functionality
         </title>
         <meta
@@ -52,7 +52,7 @@ const Aircon = () => {
       <div className="row container-fluid">
         <div className="col-lg-8 p-5">
           <p className="text_justify">
-            At HandymanAHM, we're dedicated to being the foremost name in the
+            At HandymanAHM, we`re dedicated to being the foremost name in the
             handyman service industry in Singapore, delivering holistic
             solutions to fulfill all your home maintenance requirements. Our
             exceptional expertise extends to our specialized Sliding Door Repair
@@ -67,7 +67,7 @@ const Aircon = () => {
 
           <h2>Advantages of Opting for Our Sliding Door Repair Services</h2>
           <p className="text_justify">
-            When dealing with sliding doors, it's imperative to prioritize
+            When dealing with sliding doors, it`s imperative to prioritize
             upkeep to guarantee smooth operation, security, and an appealing
             space. Our team of experts specializes in the nuances of sliding
             door systems, enabling us to offer unparalleled services that
@@ -91,7 +91,7 @@ const Aircon = () => {
           <p className="text_justify">
             <strong>Sliding Door Emergency Fixes:</strong> When your sliding
             doors encounter unexpected issues, our proficient team swiftly
-            identifies the problem and provides immediate remedies. Whether it's
+            identifies the problem and provides immediate remedies. Whether it`s
             a stuck door or a broken component, we offer rapid solutions to
             restore functionality and security.
           </p>
@@ -132,7 +132,7 @@ const Aircon = () => {
             At HandymanAHM, we hold the belief that sliding door repair services
             constitute an essential aspect of our all-encompassing handyman
             solutions. Discover the distinction of collaborating with
-            Singapore's premier handyman service by relying on us for your
+            Singapore`s premier handyman service by relying on us for your
             sliding door repair and maintenance needs. Get in touch today to
             arrange an appointment, and elevate your living space with smoother,
             more secure sliding doors.
@@ -150,4 +150,4 @@ const Aircon = () => {
   );
 };
 
-export default Aircon;
+export default Door;

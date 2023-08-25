@@ -1,6 +1,7 @@
 import { Html, Head, Main, NextScript } from "next/document";
-import { Footer } from "./components/Layout/Footer";
-export default function Document() {
+import Footer from "./components/Layout/Footer";
+
+const Document =() => {
   return (
     <Html lang="en">
       <Head />
@@ -12,3 +13,6 @@ export default function Document() {
     </Html>
   );
 }
+
+export default Document
+

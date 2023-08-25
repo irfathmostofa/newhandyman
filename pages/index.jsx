@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import Link from "next/link";
-import { Navber } from "../../newhandyman/pages/components/Layout/Navber.jsx";
+import  Navber  from "../../newhandyman/pages/components/Layout/Navber.jsx";
 import home from "../pages/components/images/home.jpg";
 import home2 from "../pages/components/images/home2.jpg";
 import home4 from "../pages/components/images/home4.jpg";
@@ -12,7 +12,8 @@ import bca from "../pages/components/images/bca.png";
 import biz from "../pages/components/images/biz.png";
 import contacts from "../pages/components/images/contacts.jpg";
 import iso from "../pages/components/images/iso.png";
-import { ContactForm } from "./components/ContactForm";
+import ContactForm from "./components/ContactForm.jsx";
+// import { ContactForm } from "./components/ContactForm";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {

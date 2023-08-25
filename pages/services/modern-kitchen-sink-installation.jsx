@@ -1,11 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import ac from "../components/images/Kitchen-Sink.jpg";
-import { Navber } from "../components/Layout/Navber";
-import { Sidebar } from "../components/Sidebar";
 import Head from "next/head";
-import { ContactForm } from "../components/ContactForm";
-const Aircon = () => {
+import Navber from "../components/Layout/Navber";
+import Sidebar from "../components/Sidebar";
+import ContactForm from "../components/ContactForm";
+
+const Kitchen = () => {
   return (
     <>
       <Head>
@@ -52,11 +53,11 @@ const Aircon = () => {
       <div className="row container-fluid">
         <div className="col-lg-8 p-5">
           <p className="text_justify">
-            Discover excellence with HandymanAHM, Singapore's finest home
+            Discover excellence with HandymanAHM, Singapore`s finest home
             maintenance service. Elevate your kitchen with our expert Kitchen
             Sink Services - installation, repair, and maintenance. Experience
             flawless water flow and functionality, backed by our commitment to
-            quality. Choose HandymanAHM and redefine your kitchen's efficiency
+            quality. Choose HandymanAHM and redefine your kitchen`s efficiency
             and style.
           </p>
           <Image
@@ -103,19 +104,19 @@ const Aircon = () => {
 
           <h2>What Sets Us Apart:</h2>
           <p className="text_justify">
-            <strong>Expert Craftsmanship:</strong> As Singapore's leading
+            <strong>Expert Craftsmanship:</strong> As Singapore`s leading
             handyman service, our technicians possess unparalleled expertise not
             only in kitchen sink services but also in diverse home maintenance
             areas.
           </p>
           <p className="text_justify">
             <strong>Dependable Solutions:</strong> We prioritize dependable
-            services, guaranteeing your kitchen sink's optimal functionality,
+            services, guaranteeing your kitchen sink`s optimal functionality,
             which is essential for smooth culinary operations.
           </p>
           <p className="text_justify">
             <strong>Tailored to You:</strong> We recognize the individuality of
-            each home. Our services are tailored to your kitchen sink's unique
+            each home. Our services are tailored to your kitchen sink`s unique
             requirements, ensuring the best care for this vital area.
           </p>
           <p className="text_justify">
@@ -128,10 +129,10 @@ const Aircon = () => {
           <p className="text_justify">
             At HandymanAHM, we believe that superior kitchen sink services are
             an integral part of our comprehensive handyman offerings. Discover
-            the difference of working with Singapore's best handyman service by
-            entrusting us with your kitchen sink's maintenance and enhancements.
+            the difference of working with Singapore`s best handyman service by
+            entrusting us with your kitchen sink`s maintenance and enhancements.
             Reach out today to schedule an appointment, and elevate your
-            kitchen's efficiency and appeal.
+            kitchen`s efficiency and appeal.
           </p>
         </div>
         <div className="col-lg-4 mt-5">
@@ -146,4 +147,4 @@ const Aircon = () => {
   );
 };
 
-export default Aircon;
+export default Kitchen;

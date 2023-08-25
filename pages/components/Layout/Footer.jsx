@@ -16,7 +16,7 @@ const Footer = () => {
                 <i class="fas fa-tools"></i> Handyman Service
               </h5>
               <p class="text-justify">
-                "Reliable Handyman Services in Singapore - Your Trusted Partner
+                {/* "Reliable Handyman Services in Singapore - Your Trusted Partner */} {/* FIX */}
                 for Quality Repairs and Maintenance.{" "}
               </p>{" "}
             </div>
@@ -71,10 +71,10 @@ const Footer = () => {
               <h6>Quick Links</h6>
               <ul class="footer-links">
                 <li>
-                  <a href="/about">About Us</a>
+                  {/* <a href="/about">About Us</a> */} {/* FIX */}
                 </li>
                 <li>
-                  <a href="/contact">Contact Us</a>
+                  {/* <a href="/contact">Contact Us</a> */} {/* FIX */}
                 </li>
                 <li>
                   <a href="/services">Services</a>

@@ -16,7 +16,7 @@ import hmr3 from "../pages/components/images/hmr3.jpg";
 import hmr4 from "../pages/components/images/hmr4.jpg";
 import hmr5 from "../pages/components/images/hmr5.jpg";
 import hmr6 from "../pages/components/images/hmr6.jpg";
-import { Navber } from "./components/Layout/Navber";
+import Navber  from "./components/Layout/Navber";
 import Head from "next/head";
 
 const Service = () => {
@@ -43,7 +43,7 @@ const Service = () => {
         <button class="custom position-relative rounded-4">
           <p className=" text_justify mt-4 p-5">
             At handymanahm, we understand that every home requires unique
-            attention. That's why we offer a wide range of expert handyman
+            attention. That`s why we offer a wide range of expert handyman
             solutions to cater to all your repair and maintenance needs. From
             minor fixes like water leakages and repairing sliding doors to
             handling more complex tasks like plumbing issues, kitchen sink
@@ -283,7 +283,7 @@ const Service = () => {
                 projects and had a wide range of clientele. We have more than
                 two years of expertise, put a premium on providing excellent
                 services, charge reasonable prices, and offer all of our
-                client's free labor estimates. Your entire pleasure is
+                client`s free labor estimates. Your entire pleasure is
                 guaranteed
               </p>
             </div>
