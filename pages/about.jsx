@@ -1,8 +1,8 @@
+import Head from "next/head";
 import Image from "next/image";
+import Navber from "../../newhandyman/pages/components/Layout/Navber.jsx";
 import about from "../pages/components/images/about.jpg";
 import service from "../pages/components/images/service.png";
-import  Navber  from "../../newhandyman/pages/components/Layout/Navber.jsx";
-import Head from "next/head";
 const About = () => {
   return (
     <>
@@ -124,7 +124,7 @@ const About = () => {
           </div>
         </div>
       </section>
-
+      <span>...</span>
       <section>
         <div className="container p-5">
           <div class="row pb-5">
