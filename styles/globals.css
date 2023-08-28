@@ -3,6 +3,33 @@
   text-decoration: none !important;
 }
 
+.offcanvas-body{
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+right: 0;
+
+background-color: white;
+
+}
+.offcanvas-header{
+  z-index: 100;
+}
+
+.btn-close{
+position: fixed;
+float: right!important;
+font-size: 22px;
+  
+}
+.btn-close:focus{
+ border: none!important;
+ outline: none!important;
+ box-shadow: none!important;
+    
+  }
+
 .btn-col {
   background-color: #49ccf9 !important;
 }
