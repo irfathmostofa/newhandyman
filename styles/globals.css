@@ -30,6 +30,8 @@ font-size: 22px;
     
   }
 
+
+
 .btn-col {
   background-color: #49ccf9 !important;
 }
@@ -112,6 +114,18 @@ font-size: 22px;
 }
 .bg_main {
   background-color: rgba(38, 39, 43, 0.6);
+}
+
+@media screen and (max-width: 767px) {
+.bg_main h1 {
+
+font-size: 16px;
+}
+.bg_main h1 br{
+
+  display: none;
+  }
+
 }
 .about img {
   width: 80%;

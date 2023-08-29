@@ -11,16 +11,16 @@ const Navber = () => {
   return (
     <>
       <div
-        class="offcanvas offcanvas-start"
+        className="offcanvas offcanvas-start"
         data-bs-scroll="true"
         data-bs-backdrop="false"
         tabindex="-1"
         id="offcanvasScrolling"
         aria-labelledby="offcanvasScrollingLabel"
       >
-        <div class="offcanvas-header w-100">
+        <div className="offcanvas-header w-100">
           <h5
-            class="offcanvas-title"
+            className="offcanvas-title"
             style={{ visibility: "hidden" }}
             id="offcanvasScrollingLabel"
           >
@@ -28,12 +28,12 @@ const Navber = () => {
           </h5>
           <button
             type="button"
-            class="btn-close"
+            className="btn-close"
             data-bs-dismiss="offcanvas"
             aria-label="Close"
           ></button>
         </div>
-        <div class="offcanvas-body">
+        <div className="offcanvas-body">
           <div className="text-center mt-5 pt-5">
             <Link className="text-secondary fs-4" href="/">
               Home
@@ -57,7 +57,7 @@ const Navber = () => {
             <br />
             <div className="py-4 d-flex justify-content-center" role="search">
               <Link
-                class="fs-3 px-3 text-primary"
+                className="fs-3 px-3 text-primary"
                 target="_blank"
                 href="https://www.facebook.com/profile.php?id=100072178856281"
               >
@@ -70,7 +70,7 @@ const Navber = () => {
                 </svg>
               </Link>
               <Link
-                class="fs-3 px-3 text-success"
+                className="fs-3 px-3 text-success"
                 target="_blank"
                 href="https://wa.link/xqqjco"
               >
@@ -83,7 +83,7 @@ const Navber = () => {
                 </svg>
               </Link>
               <Link
-                class="fs-3 px-3 text-info"
+                className="fs-3 px-3 text-info"
                 target="_blank"
                 href="tel:+6585966244"
               >
@@ -97,53 +97,53 @@ const Navber = () => {
               </Link>
               <br />
             </div>
-            <Link class="navbar-brand" href="/">
+            <Link className="navbar-brand" href="/">
               <Image src={logo} className="logo p-1" alt="Handyman AHM" />
             </Link>
           </div>
         </div>
       </div>
 
-      <nav class="navbar  navbar-expand-lg bg-body-tertiary sticky-top shadow-sm">
-        <div class="container">
-          <Link class="navbar-brand" href="/">
+      <nav className="navbar  navbar-expand-lg bg-body-tertiary sticky-top shadow-sm">
+        <div className="container p-0">
+          <Link className="navbar-brand" href="/">
             <Image src={logo} className="logo p-2" alt="Handyman AHM" />
           </Link>
 
           <button
-            class="btn btn-light navbar-toggler"
+            className="btn btn-light navbar-toggler"
             type="button"
             data-bs-toggle="offcanvas"
             data-bs-target="#offcanvasScrolling"
             aria-controls="offcanvasScrolling"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
           <div
-            class="collapse navbar-collapse container"
+            className="collapse navbar-collapse container"
             id="navbarSupportedContent"
           >
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <Link class="nav-link active" aria-current="page" href="/">
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+              <li className="nav-item">
+                <Link className="nav-link active" aria-current="page" href="/">
                   Home
                 </Link>
               </li>
-              <li class="nav-item">
-                <Link class="nav-link" href="/service">
+              <li className="nav-item">
+                <Link className="nav-link" href="/service">
                   Service
                 </Link>
               </li>
 
-              <li class="nav-item">
-                <Link class="nav-link" href="/about">
+              <li className="nav-item">
+                <Link className="nav-link" href="/about">
                   About Us
                 </Link>
               </li>
             </ul>
-            <div class="d-flex align-items-center gap-4" role="search">
+            <div className="d-flex align-items-center gap-4" role="search">
               <Link
-                class="fs-4 text-primary"
+                className="fs-4 text-primary"
                 target="_blank"
                 href="https://www.facebook.com/profile.php?id=100072178856281"
               >
@@ -156,7 +156,7 @@ const Navber = () => {
                 </svg>
               </Link>
               <Link
-                class="fs-4 text-success"
+                className="fs-4 text-success"
                 target="_blank"
                 href="https://wa.link/xqqjco"
               >
@@ -169,7 +169,7 @@ const Navber = () => {
                 </svg>
               </Link>
               <Link
-                class="fs-5 text-info"
+                className="fs-5 text-info"
                 target="_blank"
                 href="tel:+6585966244"
               >
