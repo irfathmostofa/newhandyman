@@ -25,15 +25,15 @@ const Plumbing = () => {
       </Head>
       <Navber />
       <div className="container-fluid">
-        <div class="position-relative overflow-hidden p-3 p-md-5 text-center bg-body-tertiary">
-          <div class="col-md-6 mx-auto my-5">
-            <h1 class="display-3 fw-bold">Expert Plumbing Solutions</h1>
-            <p class="fw-normal text-muted mb-3 fs-5">
+        <div className="position-relative overflow-hidden p-3 p-md-5 text-center bg-body-tertiary">
+          <div className="col-md-6 mx-auto my-5">
+            <h1 className="display-3 fw-bold">Expert Plumbing Solutions</h1>
+            <p className="fw-normal text-muted mb-3 fs-5">
               Comprehensive plumbing services, including repairs, installations,
               and maintenance, ensuring efficient water flow and optimal
               functionality in residential and commercial spaces.
             </p>
-            <div class="d-flex gap-3 justify-content-center lead fw-normal">
+            <div className="d-flex gap-3 justify-content-center lead fw-normal">
               <Link
                 href="https://wa.link/your-link-here"
                 target="_blank"
@@ -43,8 +43,8 @@ const Plumbing = () => {
               </Link>
             </div>
           </div>
-          <div class="product-device shadow-sm d-none d-md-block"></div>
-          <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+          <div className="product-device shadow-sm d-none d-md-block"></div>
+          <div className="product-device product-device-2 shadow-sm d-none d-md-block"></div>
         </div>
       </div>
 

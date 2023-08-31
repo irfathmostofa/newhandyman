@@ -37,11 +37,11 @@ const Contact = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">
-              <div class="accordion accordion-flush" id="accordionFlushExample">
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
+              <div className="accordion accordion-flush" id="accordionFlushExample">
+                <div className="accordion-item">
+                  <h2 className="accordion-header">
                     <button
-                      class="accordion-button collapsed mb-2"
+                      className="accordion-button collapsed mb-2"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseOne"
@@ -53,19 +53,19 @@ const Contact = () => {
                   </h2>
                   <div
                     id="flush-collapseOne"
-                    class="accordion-collapse collapse"
+                    className="accordion-collapse collapse"
                     data-bs-parent="#accordionFlushExample"
                   >
-                    <div class="accordion-body">
+                    <div className="accordion-body">
                       Yes, we provide all kinds of handyman services as your
                       need.
                     </div>
                   </div>
                 </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
+                <div className="accordion-item">
+                  <h2 className="accordion-header">
                     <button
-                      class="accordion-button collapsed mb-2"
+                      className="accordion-button collapsed mb-2"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseTwo"
@@ -77,19 +77,19 @@ const Contact = () => {
                   </h2>
                   <div
                     id="flush-collapseTwo"
-                    class="accordion-collapse collapse"
+                    className="accordion-collapse collapse"
                     data-bs-parent="#accordionFlushExample"
                   >
-                    <div class="accordion-body">
+                    <div className="accordion-body">
                       Yes, we also provide painting services and we have
                       expertise to decorate your house nicely.
                     </div>
                   </div>
                 </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
+                <div className="accordion-item">
+                  <h2 className="accordion-header">
                     <button
-                      class="accordion-button collapsed mb-2"
+                      className="accordion-button collapsed mb-2"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseThree"
@@ -101,16 +101,16 @@ const Contact = () => {
                   </h2>
                   <div
                     id="flush-collapseThree"
-                    class="accordion-collapse collapse"
+                    className="accordion-collapse collapse"
                     data-bs-parent="#accordionFlushExample"
                   >
-                    <div class="accordion-body">We also do that service.</div>
+                    <div className="accordion-body">We also do that service.</div>
                   </div>
                 </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
+                <div className="accordion-item">
+                  <h2 className="accordion-header">
                     <button
-                      class="accordion-button collapsed mb-2"
+                      className="accordion-button collapsed mb-2"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseThree3"
@@ -122,16 +122,16 @@ const Contact = () => {
                   </h2>
                   <div
                     id="flush-collapseThree3"
-                    class="accordion-collapse collapse"
+                    className="accordion-collapse collapse"
                     data-bs-parent="#accordionFlushExample3"
                   >
-                    <div class="accordion-body">We gladly do that service.</div>
+                    <div className="accordion-body">We gladly do that service.</div>
                   </div>
                 </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
+                <div className="accordion-item">
+                  <h2 className="accordion-header">
                     <button
-                      class="accordion-button collapsed mb-2"
+                      className="accordion-button collapsed mb-2"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseThree2"
@@ -144,20 +144,20 @@ const Contact = () => {
                   </h2>
                   <div
                     id="flush-collapseThree2"
-                    class="accordion-collapse collapse"
+                    className="accordion-collapse collapse"
                     data-bs-parent="#accordionFlushExample2"
                   >
-                    <div class="accordion-body">
+                    <div className="accordion-body">
                       Ofcourse we do that. We ensure you the best possible
                       security and good warenty of products as requirements.we
                       also provide quotations for our valuable customer.
                     </div>
                   </div>
                 </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
+                <div className="accordion-item">
+                  <h2 className="accordion-header">
                     <button
-                      class="accordion-button collapsed mb-2"
+                      className="accordion-button collapsed mb-2"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseThree1"
@@ -169,10 +169,10 @@ const Contact = () => {
                   </h2>
                   <div
                     id="flush-collapseThree1"
-                    class="accordion-collapse collapse"
+                    className="accordion-collapse collapse"
                     data-bs-parent="#accordionFlushExample1"
                   >
-                    <div class="accordion-body">We are certified.</div>
+                    <div className="accordion-body">We are certified.</div>
                   </div>
                 </div>
               </div>

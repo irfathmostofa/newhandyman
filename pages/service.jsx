@@ -41,7 +41,7 @@ const Service = () => {
       <Navber />
       <div className="container mt-5 pt-5">
         <button className="custom position-relative rounded-4">
-          <p className=" text_justify mt-4 p-5">
+          <p className=" text_justify mt-4 p-lg-5 p-md-5 p-3">
             At handymanahm, we understand that every home requires unique
             attention. That`s why we offer a wide range of expert handyman
             solutions to cater to all your repair and maintenance needs. From
@@ -61,7 +61,7 @@ const Service = () => {
       <section>
         <div className="container">
           <div className="row p-5">
-            <div className="col-lg-4 col-md-6 col-12 p-4 ">
+            <div className="col-lg-4 col-md-6 col-12 p-lg-4 p-md-4 p-0 pb-5 ">
               <div className="card">
                 <Image src={water} className="card-img-top" alt="..." />
                 <div className="card-body">
@@ -83,7 +83,7 @@ const Service = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 col-12 p-4 ">
+            <div className="col-lg-4 col-md-6 col-12 p-lg-4 p-md-4 p-0 pb-5 ">
               <div className="card">
                 <Image src={door} className="card-img-top" alt="..." />
                 <div className="card-body">
@@ -105,7 +105,7 @@ const Service = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 col-12 p-4 ">
+            <div className="col-lg-4 col-md-6 col-12 p-lg-4 p-md-4 p-0 pb-5 ">
               <div className="card">
                 <Image src={plumbing} className="card-img-top" alt="..." />
                 <div className="card-body">
@@ -128,7 +128,7 @@ const Service = () => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6 col-12 p-4 ">
+            <div className="col-lg-4 col-md-6 col-12 p-lg-4 p-md-4 p-0 pb-5 ">
               <div className="card">
                 <Image src={sink} className="card-img-top" alt="..." />
                 <div className="card-body">
@@ -150,7 +150,7 @@ const Service = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 col-12 p-4 ">
+            <div className="col-lg-4 col-md-6 col-12 p-lg-4 p-md-4 p-0 pb-5 ">
               <div className="card">
                 <Image src={furniture} className="card-img-top" alt="..." />
                 <div className="card-body">
@@ -172,7 +172,7 @@ const Service = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 col-12 p-4 ">
+            <div className="col-lg-4 col-md-6 col-12 p-lg-4 p-md-4 p-0 pb-5 ">
               <div className="card">
                 <Image src={electrical} className="card-img-top" alt="..." />
                 <div className="card-body">
@@ -194,7 +194,7 @@ const Service = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 col-12 p-4 ">
+            <div className="col-lg-4 col-md-6 col-12 p-lg-4 p-md-4 p-0 pb-5 ">
               <div className="card">
                 <Image src={cabinet} className="card-img-top" alt="..." />
                 <div className="card-body">
@@ -216,7 +216,7 @@ const Service = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 col-12 p-4 ">
+            <div className="col-lg-4 col-md-6 col-12 p-lg-4 p-md-4 p-0 pb-5 ">
               <div className="card">
                 <Image src={ac} className="card-img-top" alt="..." />
                 <div className="card-body">
@@ -239,7 +239,7 @@ const Service = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 col-12 p-4 ">
+            <div className="col-lg-4 col-md-6 col-12 p-lg-4 p-md-4 p-0 pb-5 ">
               <div className="card">
                 <Image src={wiring} className="card-img-top" alt="..." />
                 <div className="card-body">
@@ -268,7 +268,7 @@ const Service = () => {
 
       <section>
         <div
-          className="container p-5 rounded-4"
+          className="container p-lg-5 p-md-5 p-3 rounded-4"
           style={{ background: "#FFF8FB" }}
         >
           <div className="row align-items-center">
@@ -292,7 +292,7 @@ const Service = () => {
               <div className="home_renovation">
                 <div className="container">
                   <div className="row">
-                    <div className="col-lg-4 mb-4 mb-lg-0">
+                    <div className="col-lg-4 col-md-4 col-4  mb-4 mb-lg-0">
                       <Image
                         src={hmr1}
                         className="w-100 shadow-1-strong rounded mb-4"
@@ -306,7 +306,7 @@ const Service = () => {
                       />
                     </div>
 
-                    <div className="col-lg-4 mb-4 mb-lg-0">
+                    <div className="col-lg-4 col-md-4  col-4  mb-4 mb-lg-0">
                       <Image
                         src={hmr3}
                         className="w-100 shadow-1-strong rounded mb-4"
@@ -320,7 +320,7 @@ const Service = () => {
                       />
                     </div>
 
-                    <div className="col-lg-4 mb-4 mb-lg-0">
+                    <div className="col-lg-4 col-md-4 col-4  mb-4 mb-lg-0">
                       <Image
                         src={hmr5}
                         className="w-100 shadow-1-strong rounded mb-4"
@@ -341,10 +341,10 @@ const Service = () => {
         </div>
       </section>
 
-      <section className="p-5 pb-0">
+      <section className="p-0 p-lg-5 p-md-5 pb-0">
         <div
           style={{ background: "#EDFAFE" }}
-          className="container p-5 rounded-3"
+          className="container p-0 p-lg-5 p-md-5 rounded-3"
         >
           <div className="p-3">
             <h3>
@@ -363,7 +363,10 @@ const Service = () => {
                 {" "}
                 Explore Us
               </Link>{" "}
-              <i className="fa-regular fa-circle-right"></i>
+              <svg className="mb-1 " xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0v2z"/>
+  <path fill-rule="evenodd" d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
+</svg>
             </button>
           </div>
         </div>

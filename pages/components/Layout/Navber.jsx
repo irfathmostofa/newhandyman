@@ -184,7 +184,7 @@ const Navber = () => {
 
               <Link
                 href="/contact"
-                className="btn btn-secondary fw-bold text-white rounded-0"
+                className="btn btn-outline-secondary fw-bold  rounded-0"
               >
                 Contact Us
               </Link>

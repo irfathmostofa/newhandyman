@@ -25,17 +25,17 @@ const Kitchen = () => {
       </Head>
       <Navber />
       <div className="container-fluid">
-        <div class="position-relative overflow-hidden p-3 p-md-5 text-center bg-body-tertiary">
-          <div class="col-md-6 mx-auto my-5">
-            <h1 class="display-3 fw-bold">
+        <div className="position-relative overflow-hidden p-3 p-md-5 text-center bg-body-tertiary">
+          <div className="col-md-6 mx-auto my-5">
+            <h1 className="display-3 fw-bold">
               Professional Kitchen Sink Services
             </h1>
-            <p class="fw-normal text-muted mb-3 fs-5">
+            <p className="fw-normal text-muted mb-3 fs-5">
               Comprehensive kitchen sink services, including installation,
               repair, and maintenance, ensuring optimal functionality and
               efficient water flow in residential and commercial kitchens.
             </p>
-            <div class="d-flex gap-3 justify-content-center lead fw-normal">
+            <div className="d-flex gap-3 justify-content-center lead fw-normal">
               <Link
                 href="https://wa.link/xqqjco"
                 target="_blank"
@@ -45,8 +45,8 @@ const Kitchen = () => {
               </Link>
             </div>
           </div>
-          <div class="product-device shadow-sm d-none d-md-block"></div>
-          <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+          <div className="product-device shadow-sm d-none d-md-block"></div>
+          <div className="product-device product-device-2 shadow-sm d-none d-md-block"></div>
         </div>
       </div>
 

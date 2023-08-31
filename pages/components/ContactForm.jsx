@@ -4,23 +4,23 @@ const ContactForm = () => {
       <div className="row align-items-center">
         <div className="col-lg-6 col-12 p-5">
           <h4 className="mb-4 fw-bold"> Contact Us</h4>
-          <div class="mb-3">
+          <div className="mb-3">
             <input
               type="email"
               placeholder="Email"
-              class="form-control"
+              className="form-control"
               aria-describedby="emailHelp"
             />
           </div>
-          <div class="mb-3">
-            <input type="text" placeholder="Name" class="form-control" />
+          <div className="mb-3">
+            <input type="text" placeholder="Name" className="form-control" />
           </div>
 
-          <div class="mb-3">
-            <textarea type="text" placeholder="Message" class="form-control" />
+          <div className="mb-3">
+            <textarea type="text" placeholder="Message" className="form-control" />
           </div>
 
-          <button type="submit" class="btn btn-col4 fw-bold rounded-0 w-100">
+          <button type="submit" className="btn btn-col4 fw-bold rounded-0 w-100">
             Submit
           </button>
         </div>
