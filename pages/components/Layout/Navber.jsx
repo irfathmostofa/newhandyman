@@ -99,6 +99,7 @@ const Navber = () => {
             </div>
             <Link className="navbar-brand" href="/">
               <Image src={logo} className="logo p-1" alt="Handyman AHM" />
+            
             </Link>
           </div>
         </div>
@@ -106,8 +107,8 @@ const Navber = () => {
 
       <nav className="navbar  navbar-expand-lg bg-body-tertiary sticky-top shadow-sm">
         <div className="container p-0">
-          <Link className="navbar-brand" href="/">
-            <Image src={logo} className="logo p-2" alt="Handyman AHM" />
+          <Link className="navbar-brand fw-bolder" href="/">
+            <Image src={logo}  className="logo p-2 pe-0" alt="Handyman AHM" />andyman AHM
           </Link>
 
           <button

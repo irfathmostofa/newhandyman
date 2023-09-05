@@ -36,7 +36,7 @@ export default function Home() {
         />
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/ahm.ico" />
+        <link rel="icon" href="/ahm1.ico" />
       </Head>
       <main>
         <Navber />
