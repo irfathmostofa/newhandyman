@@ -108,7 +108,7 @@ const Navber = () => {
       <nav className="navbar  navbar-expand-lg bg-body-tertiary sticky-top shadow-sm">
         <div className="container p-0">
           <Link className="navbar-brand fw-bolder" href="/">
-            <Image src={logo}  className="logo p-2 pe-0" alt="Handyman AHM" />andyman AHM
+            <Image src={logo}  className="logo p-2 pe-0" alt="Handyman AHM" />Handyman AHM
           </Link>
 
           <button
