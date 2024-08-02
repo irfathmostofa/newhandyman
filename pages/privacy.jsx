@@ -23,14 +23,14 @@ const PrivacyPolicy = () => {
           <div className="privacy-section mb-4">
             <strong>Privacy Policy</strong>
             <p>
-              This privacy policy applies to the Handyman AHM app (hereby referred to as "Application") for mobile devices that was created by Fkr It (hereby referred to as "Service Provider") as a Free service. This service is intended for use "AS IS".
+              This privacy policy applies to the Handyman AHM app (hereby referred to as &quot;Application&quot;) for mobile devices that was created by Fkr It (hereby referred to as &quot;Service Provider&quot;) as a Free service. This service is intended for use &quot;AS IS&quot;.
             </p>
           </div>
           <div className="privacy-section mb-4">
             <strong>Information Collection and Use</strong>
             <p>The Application collects information when you download and use it. This information may include:</p>
             <ul>
-              <li>Your device's Internet Protocol address (e.g. IP address)</li>
+              <li>Your device&apos;s Internet Protocol address (e.g. IP address)</li>
               <li>The pages of the Application that you visit, the time and date of your visit, the time spent on those pages</li>
               <li>The time spent on the Application</li>
               <li>The operating system you use on your mobile device</li>
@@ -76,7 +76,7 @@ const PrivacyPolicy = () => {
           <div className="privacy-section mb-4">
             <strong>Data Retention Policy</strong>
             <p>
-              The Service Provider will retain User Provided data for as long as you use the Application and for a reasonable time thereafter. If you'd like them to delete User Provided Data that you have provided via the Application, please contact them at handymanahm5@gmail.com and they will respond in a reasonable time.
+              The Service Provider will retain User Provided data for as long as you use the Application and for a reasonable time thereafter. If you&apos;d like them to delete User Provided Data that you have provided via the Application, please contact them at handymanahm5@gmail.com and they will respond in a reasonable time.
             </p>
           </div>
           <div className="privacy-section mb-4">

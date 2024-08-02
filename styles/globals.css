@@ -30,7 +30,12 @@ font-size: 22px;
     
   }
 
-
+  .terms-header {
+    background-color: #f8f9fa;
+  }
+  .terms-section h5 {
+    margin-bottom: 15px;
+  }
 
 .btn-col {
   background-color: #49ccf9 !important;

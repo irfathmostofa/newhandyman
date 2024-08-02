@@ -85,7 +85,7 @@ const Navber = () => {
               <Link
                 className="fs-3 px-3 text-info"
                 target="_blank"
-                href="tel:+6585966244"
+                href="tel:+65 8587 8190"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -172,7 +172,7 @@ const Navber = () => {
               <Link
                 className="fs-5 text-info"
                 target="_blank"
-                href="tel:+6585966244"
+                href="tel:+65 8587 8190"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
